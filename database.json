@@ -9,7 +9,8 @@
       "price": "19.99",
       "originalPrice": "39.99",
       "link": "https://www.ebay.com/itm/194512367093?mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337259887&toolid=10001&customid=4fba9f8ea22d11eca14e9a5345c674ba0INT",
-      "vendor": "Ebay"
+      "vendor": "Ebay",
+      "favorite": false
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "price": "2,899.99",
       "originalPrice": "2,999.99",
       "link": "https://www.bestbuy.com/site/lg-77-class-c1-series-oled-4k-uhd-smart-webos-tv/6453315.p?skuId=6453315",
-      "vendor": "Best Buy"
+      "vendor": "Best Buy",
+      "favorite": false
     },
     {
       "userId": 1,
@@ -31,25 +33,224 @@
       "originalPrice": "59.99",
       "link": "https://www.bestbuy.com/site/marvels-guardians-of-the-galaxy-xbox-series-x/6468684.p?skuId=6468684",
       "vendor": "Best Buy",
-      "id": 5
+      "id": 5,
+      "favorite": false
     },
     {
       "userId": 1,
       "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455171_sd.jpg;maxHeight=640;maxWidth=550",
-      "title": "Hisense - 55\" Class U6G Series Quantum ULED 4K UHD Smart Android TV",
+      "title": "Hisense - 55\" Class U6G Series ULED 4K TV",
       "price": "449.99",
       "originalPrice": "799.99",
       "link": "https://www.bestbuy.com/site/hisense-55-class-u6g-series-quantum-uled-4k-uhd-smart-android-tv/6455171.p?skuId=6455171",
       "vendor": "Best Buy",
       "categoryId": 2,
-      "id": 6
+      "id": 6,
+      "favorite": false
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/10141904/The-Legend-of-Zelda-Breath-of-the-Wild---Nintendo-Switch?$pdp$$&fmt=webp",
+      "title": "The Legend of Zelda - Nintendo Switch",
+      "price": "39.99",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/video-games/nintendo-switch/products/the-legend-of-zelda-breath-of-the-wild---nintendo-switch/141686.html",
+      "vendor": "GameStop",
+      "categoryId": 1,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/10141908/Super-Mario-Odyssey---Nintendo-Switch?$pdp2x$",
+      "title": "Super Mario Odyssey - Nintendo Switch",
+      "price": "49.94",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/video-games/nintendo-switch/products/super-mario-odyssey---nintendo-switch/141694.html",
+      "vendor": "GameStop",
+      "categoryId": 1,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/11095751/Xbox-Game-Pass-3-Month-Ultimate-Membership?$pdp2x$",
+      "title": "Xbox Game Pass 3 Month Ultimate Membership",
+      "price": "39.99",
+      "originalPrice": "44.99",
+      "link": "https://www.gamestop.com/gift-cards/digital-subscriptions/products/xbox-game-pass-3-month-ultimate-membership/198534.html",
+      "vendor": "GameStop",
+      "categoryId": "4",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/11106262/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp2x$",
+      "title": "Sony DualSense Wireless Controller for PlayStation 5",
+      "price": "49.99",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/gaming-accessories/controllers/playstation-5/products/sony-dualsense-wireless-controller-for-playstation-5/232513.html",
+      "vendor": "GameStop",
+      "categoryId": 3,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/11108954/Microsoft-Xbox-Series-X-Wireless-Controller-Carbon-Black?$pdp2x$",
+      "title": "Microsoft Xbox Series X Wireless Controller",
+      "price": "49.00",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/consoles-hardware/xbox-series-x%7Cs/gaming-accessories/controllers/products/microsoft-xbox-series-x-wireless-controller-carbon-black/224736.html",
+      "vendor": "GameStop",
+      "categoryId": 3,
+      "id": 11,
+      "favorite": "true"
+    },
+    {
+      "userId": 1,
+      "image": "https://media.gamestop.com/i/gamestop/11151938/FIFA-22---PlayStation-5?$pdp2x$",
+      "title": "FIFA Soccer 22 - PlayStation 5",
+      "price": "19.99",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/video-games/playstation-5/products/fifa-22----playstation-5/302227.html",
+      "vendor": "GameStop",
+      "categoryId": 1,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "image": "https://media.gamestop.com/i/gamestop/11201322/Hasbro-Star-Wars-The-Book-of-Boba-Fett-The-Black-Series-Fennec-Shand-6-in-Action-Figure?$pdp2x$",
+      "title": "The Black Series Fennec Shand 6-in Action Figure",
+      "price": "19.54",
+      "originalPrice": "22.99",
+      "link": "https://www.gamestop.com/collectibles/figures/products/hasbro-star-wars-the-book-of-boba-fett-the-black-series-fennec-shand-6-in-action-figure/297209.html",
+      "vendor": "GameStop",
+      "categoryId": 6,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "image": "https://media.gamestop.com/i/gamestop/11165860/McFarlane-Toys-DC-Multiverse---DC-Rebirth-Clayface-7-in-Action-Figure?$pdp2x$",
+      "title": " DC Rebirth Clayface 7-in Action Figure",
+      "price": "33.99",
+      "originalPrice": "39.99",
+      "link": "https://www.gamestop.com/collectibles/figures/products/mcfarlane-toys-dc-multiverse---dc-rebirth-clayface-7-in-action-figure/315910.html",
+      "vendor": "GameStop",
+      "categoryId": 6,
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "image": "https://media.gamestop.com/i/gamestop/11151961/NBA-2K22---PlayStation-4?$pdp2x$",
+      "title": "NBA 2K22 - PlayStation 4 Game",
+      "price": "19.00",
+      "originalPrice": "59.99",
+      "link": "https://www.gamestop.com/video-games/playstation-4/products/nba-2k22---playstation-4/302261.html",
+      "vendor": "GameStop",
+      "categoryId": 1,
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "image": "https://media.gamestop.com/i/gamestop/B909275G/PlayStation-4-Naughty-Dog-Blast-From-The-Past-Preowned-System-Bundle?$pdp2x$",
+      "title": "PlayStation 4 Naughty Dog Preowned System Bundle",
+      "price": "299.99",
+      "originalPrice": "335.96",
+      "link": "https://www.gamestop.com/consoles-hardware/playstation-4/consoles/products/playstation-4-naughty-dog-blast-from-the-past-preowned-system-bundle/B909275G.html",
+      "vendor": "GameStop",
+      "categoryId": 5,
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/620980_083105_01_front_zoom.jpg",
+      "title": "Samsung UN55TU7000FXZA 55\"",
+      "price": "399.99",
+      "originalPrice": "599.99",
+      "link": "https://www.microcenter.com/product/620980/samsung-un55tu7000fxza-55-class-(546-diag)-4k-ultra-hd-smart-led-tv",
+      "vendor": "Micro Center",
+      "categoryId": 2,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/637307_273474_01_front_zoom.jpg",
+      "title": "LG 65UP7000PUA 65\" Class 4K Ultra HD",
+      "price": "499.99",
+      "originalPrice": "699.99",
+      "link": "https://www.microcenter.com/product/637307/lg-65up7000pua-65-class-(645-diag)-4k-ultra-hd-smart-led-tv",
+      "vendor": "Micro Center",
+      "categoryId": 2,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_6bc657d9-7664-401f-aae6-1e22c624d288?wid=325&hei=325&qlt=80&fmt=pjpeg",
+      "title": "Xbox Gift Card (Digital)",
+      "price": "15.00",
+      "originalPrice": "15.00",
+      "link": "https://www.target.com/p/xbox-gift-card-digital/-/A-53054514?preselect=52567885#lnk=sametab",
+      "vendor": "Target",
+      "categoryId": 4,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_40685cd1-01ef-4032-a275-0c4d026a665d?wid=325&hei=325&qlt=80&fmt=pjpeg",
+      "title": "Steam Gift Card",
+      "price": "50.00",
+      "originalPrice": "50.00",
+      "link": "https://www.target.com/p/steam-gift-card/-/A-79568501?preselect=14767513#lnk=sametab",
+      "vendor": "Target",
+      "categoryId": 4,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_fc89f072-b524-4da1-b043-815366257b6d?wid=325&hei=325&qlt=80&fmt=pjpeg",
+      "title": "Marvel's Avengers: Heroic Credits Package 2,000",
+      "price": "19.99",
+      "originalPrice": "19.99",
+      "link": "https://www.target.com/p/marvel-39-s-avengers-heroic-credits-package-2-000-playstation-4-digital/-/A-81409675#lnk=sametab",
+      "vendor": "Target",
+      "categoryId": 4,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_85b6eeef-44ed-4979-8b83-d07545346f78?wid=325&hei=325&qlt=80&fmt=pjpeg",
+      "title": "TCL 50\" Class 4-Series 4K UHD HDR Smart Roku TV",
+      "price": "339.99",
+      "originalPrice": "469.99",
+      "link": "https://www.target.com/p/-/A-54334335",
+      "vendor": "Target",
+      "categoryId": 2,
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426004ld.jpg;maxHeight=640;maxWidth=550",
+      "title": "Assassin's Creed Valhalla ",
+      "price": "19.99",
+      "originalPrice": "59.99",
+      "link": "https://www.bestbuy.com/site/assassins-creed-valhalla-standard-edition-playstation-5/6426004.p?skuId=6426004",
+      "vendor": "Best Buy",
+      "categoryId": 1,
+      "id": 23
     }
   ],
   "users": [
     {
       "id": 1,
       "name": "snagel33",
-      "email": "stevennagel@email.com"
+      "email": "stevennagel@email.com",
+      "joinDate": "2014-17-03",
+      "image": "https://icon-library.com/images/account-icon-png/account-icon-png-2.jpg"
+    },
+    {
+      "email": "lindsey24@email.com",
+      "name": "lindsey24",
+      "image": "https://icon-library.com/images/account-icon-png/account-icon-png-2.jpg",
+      "joinDate": "2019-01-01",
+      "id": 2
     }
   ],
   "categories": [
@@ -60,6 +261,65 @@
     {
       "id": 2,
       "name": "Televisions"
+    },
+    {
+      "id": 3,
+      "name": "Accessories"
+    },
+    {
+      "id": 4,
+      "name": "Gift Cards"
+    },
+    {
+      "id": 5,
+      "name": "Consoles"
+    },
+    {
+      "id": 6,
+      "name": "Collectibles"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "senderId": 1
+    }
+  ],
+  "userFavorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "dealId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "dealId": 1
+    },
+    {
+      "userId": 2,
+      "favorite": true,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "favorite": true,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "favorite": true,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "favorite": true,
+      "id": 7
     }
   ]
 }
